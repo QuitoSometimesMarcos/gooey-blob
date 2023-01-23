@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.blobs-ctn {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.text,
+.blobs-bg,
+.blobs-mask,
+.wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.blobs-mask {
+  z-index: 3;
+  mix-blend-mode: screen;
+  filter: blur(24px) contrast(36);
+  background-color: white;
+  /* will-change: auto; */
+}
+
+.blobs-bg {
+  z-index: 2;
+  filter: blur(36px);
+  background-color: white;
+}
+
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* .blobs-bg .blob {
+  mix-blend-mode: difference;
+} */
