@@ -33,7 +33,7 @@ const colors = [
   },
   {
     weight: 10,
-    value: "#ca09f8", // purple
+    value: "#a306d1", // purple
   },
 ];
 
