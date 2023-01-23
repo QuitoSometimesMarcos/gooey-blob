@@ -84,6 +84,7 @@ blobs.forEach((blob) => {
     {
       x: "random(-240, 240)",
       y: "random(-240, 240)",
+      scale: "random(0.75, 1.5)",
       ease: Sine.easeInOut,
       duration: "random(2, 6)",
       repeat: -1,
